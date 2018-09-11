@@ -1,0 +1,468 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+9503                    ICON                    "ico9503.ico"
+
+IDI_TRANSPOSEUP         ICON                    "transup.ico"
+
+IDI_TRANSPOSEDOWN       ICON                    "transdown.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+CHANNELSETTINGSDLG DIALOGEX 165, 170, 475, 70
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_OVERLAPPEDWINDOW | WS_EX_TOOLWINDOW
+CAPTION "Channel Settings"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "1",BN_PAGE1,147,21,12,12,BS_FLAT
+    PUSHBUTTON      "2",BN_PAGE2,162,21,12,12
+    PUSHBUTTON      "3",BN_PAGE3,177,21,12,12
+    PUSHBUTTON      "4",BN_PAGE4,192,21,12,12
+    PUSHBUTTON      "5",BN_PAGE5,147,36,12,12
+    PUSHBUTTON      "6",BN_PAGE6,162,36,12,12
+    PUSHBUTTON      "7",BN_PAGE7,177,36,12,12
+    PUSHBUTTON      "8",BN_PAGE8,192,36,12,12
+    PUSHBUTTON      "1",BN_CHAN1,222,21,12,12,BS_FLAT
+    PUSHBUTTON      "2",BN_CHAN2,237,21,12,12
+    PUSHBUTTON      "3",BN_CHAN3,252,21,12,12
+    PUSHBUTTON      "4",BN_CHAN4,267,21,12,12
+    PUSHBUTTON      "5",BN_CHAN5,282,21,12,12
+    PUSHBUTTON      "6",BN_CHAN6,297,21,12,12
+    PUSHBUTTON      "7",BN_CHAN7,312,21,12,12
+    PUSHBUTTON      "8",BN_CHAN8,327,21,12,12
+    PUSHBUTTON      "9",BN_CHAN9,342,21,12,12
+    PUSHBUTTON      "10",BN_CHAN10,357,21,12,12
+    PUSHBUTTON      "11",BN_CHAN11,372,21,12,12
+    PUSHBUTTON      "12",BN_CHAN12,387,21,12,12
+    PUSHBUTTON      "13",BN_CHAN13,402,21,12,12
+    PUSHBUTTON      "14",BN_CHAN14,417,21,12,12
+    PUSHBUTTON      "15",BN_CHAN15,432,21,12,12
+    PUSHBUTTON      "16",BN_CHAN16,447,21,12,12
+    PUSHBUTTON      "17",BN_CHAN17,222,36,12,12
+    PUSHBUTTON      "18",BN_CHAN18,237,36,12,12
+    PUSHBUTTON      "19",BN_CHAN19,252,36,12,12
+    PUSHBUTTON      "20",BN_CHAN20,267,36,12,12
+    PUSHBUTTON      "21",BN_CHAN21,282,36,12,12
+    PUSHBUTTON      "22",BN_CHAN22,297,36,12,12
+    PUSHBUTTON      "23",BN_CHAN23,312,36,12,12
+    PUSHBUTTON      "24",BN_CHAN24,327,36,12,12
+    PUSHBUTTON      "25",BN_CHAN25,342,36,12,12
+    PUSHBUTTON      "26",BN_CHAN26,357,36,12,12
+    PUSHBUTTON      "27",BN_CHAN27,372,36,12,12
+    PUSHBUTTON      "28",BN_CHAN28,387,36,12,12
+    PUSHBUTTON      "29",BN_CHAN29,402,36,12,12
+    PUSHBUTTON      "30",BN_CHAN30,417,36,12,12
+    PUSHBUTTON      "31",BN_CHAN31,432,36,12,12
+    PUSHBUTTON      "32",BN_CHAN32,447,36,12,12
+    LTEXT           "Channel Page",IDC_STATIC,150,10,61,10
+    LTEXT           "Channel",IDC_STATIC,229,9,67,11
+    CONTROL         "Show",CH_SHOW,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,22,32,11
+    CONTROL         "Play",CH_PLAY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,32,29,11
+    LTEXT           "Applies To",IDC_STATIC,48,23,37,9
+    COMBOBOX        CB_APPLIESTO,87,22,53,12,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+GLOBALSETTINGSDLG DIALOGEX 0, 170, 157, 70
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_OVERLAPPEDWINDOW | WS_EX_TOOLWINDOW
+CAPTION "Global Presets"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "Transpose",IDC_STATIC,0,1,43,8
+    CONTROL         "",TR_GBLTRANSPOSE,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,53,2,68,12
+    EDITTEXT        ED_GBLTRANSPOSE,121,2,28,12,ES_AUTOHSCROLL
+    LTEXT           "Velocity",IDC_STATIC,0,17,43,8
+    CONTROL         "",TR_GBLVELOCITY,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,53,18,68,12
+    EDITTEXT        ED_GBLVELOCITY,121,17,28,12,ES_AUTOHSCROLL
+    LTEXT           "Modulation",IDC_STATIC,0,33,48,8
+    CONTROL         "",TR_GBLMODULATION,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,53,34,68,12
+    EDITTEXT        ED_GBLMODULATION,121,33,28,12,ES_AUTOHSCROLL
+    LTEXT           "Pitch Bend",IDC_STATIC,0,49,48,8
+    CONTROL         "",TR_GBLPITCHBEND,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,53,50,68,12
+    EDITTEXT        ED_GBLPITCHBEND,121,50,28,12,ES_AUTOHSCROLL
+END
+
+SEQDLG DIALOGEX 0, 0, 212, 194
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_CLIENTEDGE
+CAPTION "MIDI Sequencer"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",BN_OPENMIDIFILE,0,1,22,22,BS_ICON
+    PUSHBUTTON      "",BN_PLAYMIDIFILE,0,24,22,22,BS_ICON | BS_FLAT
+    PUSHBUTTON      "",BN_STOPMIDIFILE,23,24,22,22,BS_ICON | BS_FLAT
+    PUSHBUTTON      "",BN_BACK,0,47,22,22,BS_ICON
+    PUSHBUTTON      "",BN_FORWARD,23,47,22,22,BS_ICON | BS_FLAT
+    PUSHBUTTON      "",BN_FF,24,71,22,22,BS_ICON | BS_FLAT
+    LTEXT           "00:00:00 of 00:00:00",ED_CURTIME,7,169,198,22
+    LISTBOX         LB_SEQPLAYLIST,72,14,138,130,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Playlist",IDC_STATIC,81,2,64,8
+    PUSHBUTTON      "",BN_SAVEMIDIFILE,23,1,22,22,BS_ICON
+    PUSHBUTTON      "",BN_OPENMIDIFILE4,47,1,22,22,BS_ICON
+    PUSHBUTTON      "",BN_REW,0,71,22,22,BS_ICON | BS_FLAT
+    CONTROL         "",TR_SEEK,"msctls_trackbar32",TBS_BOTH | WS_TABSTOP,0,146,210,22
+    PUSHBUTTON      "",BN_TRANSPOSEDOWN,48,50,22,22,BS_ICON
+    PUSHBUTTON      "",BN_TRANSPOSEUP,47,25,22,22,BS_ICON
+END
+
+MIDIDEVICEDLG DIALOGEX 215, 0, 165, 141
+STYLE DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | DS_FIXEDSYS | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_OVERLAPPEDWINDOW | WS_EX_TOOLWINDOW
+CAPTION "Midi Settings"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "MIDI Input Device",IDC_STATIC,0,6,150,78,BS_FLAT
+    COMBOBOX        CB_MIDIINDEVICE,7,20,101,120,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Start",BN_MIDIINSTART,112,15,32,12
+    GROUPBOX        "MIDI Ouput Device",IDC_STATIC,0,91,152,42
+    COMBOBOX        CB_MIDIOUTDEVICE,4,103,101,120,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Start",BN_MIDIOUTSTART,112,97,36,12
+    LTEXT           "Midi Echo Device (Midi Thru)",IDC_STATIC,6,40,98,8
+    COMBOBOX        CB_MIDIINECHODEVICE,6,52,102,12,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Start",BN_MIDIINECHOSTART,112,49,32,12
+    CONTROL         "Echo on Midi Output",CH_ECHOONOUTPUT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,69,76,12
+    PUSHBUTTON      "Reset",BN_MIDIINRESET,112,28,32,12
+    PUSHBUTTON      "Reset",BN_MIDIINECHORESET,112,64,32,12
+    PUSHBUTTON      "Reset",BN_MIDIOUTRESET,112,110,36,12
+END
+
+SPLITDLG DIALOGEX 380, 0, 165, 120
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_CLIENTEDGE
+CAPTION "Split Page"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "Split Page",IDC_STATIC,4,0,35,9
+    COMBOBOX        CB_SPLITPAGE,44,0,44,120,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Transpose",IDC_STATIC,4,14,43,8
+    CONTROL         "",TR_TRANSPOSE,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,58,16,68,12
+    EDITTEXT        ED_TRANSPOSE,127,16,28,12,ES_AUTOHSCROLL
+    LTEXT           "Velocity",IDC_STATIC,4,30,43,8
+    CONTROL         "",TR_VELOCITY,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,58,32,68,12
+    EDITTEXT        ED_VELOCITY,127,32,28,12,ES_AUTOHSCROLL
+    LTEXT           "Modulation",IDC_STATIC,4,46,60,8
+    CONTROL         "",TR_MODULATION,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,58,48,68,12
+    EDITTEXT        ED_MODULATION,127,48,28,12,ES_AUTOHSCROLL
+    LTEXT           "Pitch Bend",IDC_STATIC,4,62,48,8
+    CONTROL         "",TR_PITCHBEND,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,58,64,68,12
+    EDITTEXT        ED_PITCHBEND,127,64,28,12,ES_AUTOHSCROLL
+    LTEXT           "Split Start Key",IDC_STATIC,4,78,53,8
+    CONTROL         "",TR_SPLITSTART,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,58,80,68,12
+    EDITTEXT        ED_SPLITKEY,127,80,28,12,ES_AUTOHSCROLL
+    LTEXT           "Output Channel",IDC_STATIC,4,92,52,8
+    COMBOBOX        CB_CHANNEL,62,93,90,120,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    CHANNELSETTINGSDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 468
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+
+    GLOBALSETTINGSDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 150
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+
+    SEQDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 187
+    END
+
+    MIDIDEVICEDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 158
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 133
+    END
+
+    SPLITDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 158
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 113
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+SEQDLG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Zimbabwe) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENW)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_ZIMBABWE
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_STOP                ICON                    "stop.ico"
+
+IDI_BACK                ICON                    "back.ico"
+
+IDI_FF                  ICON                    "ff.ico"
+
+IDI_FORWARD             ICON                    "forward.ico"
+
+IDI_PAUSE               ICON                    "pause.ico"
+
+IDI_PLAY                ICON                    "play.ico"
+
+IDI_REW                 ICON                    "rew.ico"
+
+IDI_REC                 ICON                    "rec.ico"
+
+IDI_OPEN                ICON                    "open.ico"
+
+IDI_SAVE                ICON                    "save.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+KEYWINDLG DIALOGEX 0, 250, 455, 57
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_OVERLAPPEDWINDOW | WS_EX_TOOLWINDOW | WS_EX_STATICEDGE
+CAPTION "KeyWin"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    KEYWINDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 448
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 50
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+SSMENU MENU
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Open File",                   ID_OPENFILE
+        MENUITEM "Exit",                        ID_FILE_EXIT
+    END
+    POPUP "Channel"
+    BEGIN
+        MENUITEM "New Channel",                 ID_CHANNEL_NEWWINDOW
+        MENUITEM SEPARATOR
+        MENUITEM "Play",                        ID_CHANNEL_PLAY
+        MENUITEM "Mute",                        ID_CHANNEL_MUTE
+        MENUITEM "Mute All",                    ID_CHANNEL_MUTEALL
+        MENUITEM "Play All",                    ID_CHANNEL_PLAYALL
+    END
+    POPUP "Options"
+    BEGIN
+        MENUITEM "Always On Top",               ID_OPTIONS_ALWAYSONTOP
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "About",                       ID_HELP_ABOUT
+    END
+END
+
+KIMENU MENU
+BEGIN
+    POPUP "Menu"
+    BEGIN
+        MENUITEM "Lock/Unlock",                 KI_ATTACH
+        POPUP "Show Channel"
+        BEGIN
+            MENUITEM "Channel 0",                   KI_SHOWCHANNEL0
+            MENUITEM "Channel 1",                   KI_SHOWCHANNEL1
+            MENUITEM "Channel 2",                   KI_SHOWCHANNEL2
+            MENUITEM "Channel 3",                   KI_SHOWCHANNEL3
+            MENUITEM "Channel 4",                   KI_SHOWCHANNEL4
+            MENUITEM "Channel 5",                   KI_SHOWCHANNEL5
+            MENUITEM "Channel 6",                   KI_SHOWCHANNEL6
+            MENUITEM "Channel 7",                   KI_SHOWCHANNEL7
+            MENUITEM "Channel 8",                   KI_SHOWCHANNEL8
+            MENUITEM "Channel 9",                   KI_SHOWCHANNEL9
+            MENUITEM "Channel 10",                  KI_SHOWCHANNEL10
+            MENUITEM "Channel 11",                  KI_SHOWCHANNEL11
+            MENUITEM "Channel 12",                  KI_SHOWCHANNEL12
+            MENUITEM "Channel 13",                  KI_SHOWCHANNEL13
+            MENUITEM "Channel 14",                  KI_SHOWCHANNEL14
+            MENUITEM "Channel 15",                  KI_SHOWCHANNEL15
+            MENUITEM "Show All",                    ID_SHOWCHANNEL_SHOWALL
+            MENUITEM "Show None",                   ID_SHOWCHANNEL_SHOWNONE
+        END
+        POPUP "Play Channel"
+        BEGIN
+            MENUITEM "Channel 0",                   ID_PLAYCHANNEL0
+            MENUITEM "Channel 1",                   ID_PLAYCHANNEL1
+            MENUITEM "Channel 2",                   ID_PLAYCHANNEL2
+            MENUITEM "Channel 3",                   ID_PLAYCHANNEL3
+            MENUITEM "Channel 4",                   ID_PLAYCHANNEL4
+            MENUITEM "Channel 5",                   ID_PLAYCHANNEL5
+            MENUITEM "Channel 6",                   ID_PLAYCHANNEL6
+            MENUITEM "Channel 7",                   ID_PLAYCHANNEL7
+            MENUITEM "Channel 8",                   ID_PLAYCHANNEL8
+            MENUITEM "Channel 9",                   ID_PLAYCHANNEL9
+            MENUITEM "Channel 10",                  ID_PLAYCHANNEL10
+            MENUITEM "Channel 11",                  ID_PLAYCHANNEL11
+            MENUITEM "Channel 12",                  ID_PLAYCHANNEL12
+            MENUITEM "Channel 13",                  ID_PLAYCHANNEL13
+            MENUITEM "Channel 14",                  ID_PLAYCHANNEL14
+            MENUITEM "Channel 15",                  ID_PLAYCHANNEL15
+            MENUITEM "Play All",                    ID_PLAYCHANNEL_PLAYALL
+            MENUITEM "Play None",                   ID_PLAYCHANNEL_PLAYNONE
+        END
+        POPUP "Keyboard Size"
+        BEGIN
+            MENUITEM "Smallest",                    KI_KEYBOARD_SMALLEST
+            MENUITEM "Small",                       KI_KEYBOARD_SMALL
+            MENUITEM "Normal",                      KI_KEYBOARD_MEDIUM
+            MENUITEM "Big",                         KI_KEYBOARD_BIG
+            MENUITEM "Biggest",                     KI_KEYBOARD_BIGGEST
+        END
+        MENUITEM "Reset All Keys",              KI_RESETALLKEYS
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_KEYS9               BITMAP                  "keys9.bmp"
+
+IDB_KEYS15              BITMAP                  "keys15.bmp"
+
+IDB_KEYS20              BITMAP                  "keys20.bmp"
+
+IDB_KEYS30              BITMAP                  "keys30.bmp"
+
+IDB_KEYS45              BITMAP                  "keys45.bmp"
+
+IDB_RED                 BITMAP                  "red.bmp"
+
+#endif    // English (Zimbabwe) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

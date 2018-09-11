@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\OtherSources">
+      <UniqueIdentifier>{3305a297-cc71-4b08-a1a4-3615d777fc81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="keywin.hpp">
+      <Filter>Source Files\OtherSources</Filter>
+    </ClInclude>
+    <ClInclude Include="midi.hpp">
+      <Filter>Source Files\OtherSources</Filter>
+    </ClInclude>
+    <ClInclude Include="midiProc.hpp">
+      <Filter>Source Files\OtherSources</Filter>
+    </ClInclude>
+    <ClInclude Include="playmidi.hpp">
+      <Filter>Source Files\OtherSources</Filter>
+    </ClInclude>
+    <ClInclude Include="seqTool.hpp">
+      <Filter>Source Files\OtherSources</Filter>
+    </ClInclude>
+    <ClInclude Include="set.hpp">
+      <Filter>Source Files\OtherSources</Filter>
+    </ClInclude>
+    <ClInclude Include="ssproc.hpp">
+      <Filter>Source Files\OtherSources</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.hpp">
+      <Filter>Source Files\OtherSources</Filter>
+    </ClInclude>
+    <ClInclude Include="toolsproc.hpp">
+      <Filter>Source Files\OtherSources</Filter>
+    </ClInclude>
+    <ClInclude Include="midi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\midiInstr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Res\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\back.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\ff.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\forward.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\icon10.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\keys15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\keys20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\keys30.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\keys45.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\keys9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\mtss.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\open.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\pause.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\play.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\rec.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\red.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\rew.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\save.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\stop.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\transdown.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Res\transup.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Res\ss.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="Res\ss.manifest" />
+  </ItemGroup>
+</Project>
